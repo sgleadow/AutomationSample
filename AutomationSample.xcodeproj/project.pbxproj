@@ -12,7 +12,7 @@
 		C914A9E01F6A609F00B2295C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C914A9DE1F6A609F00B2295C /* Main.storyboard */; };
 		C914A9E21F6A609F00B2295C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C914A9E11F6A609F00B2295C /* Assets.xcassets */; };
 		C914A9E51F6A609F00B2295C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C914A9E31F6A609F00B2295C /* LaunchScreen.storyboard */; };
-		C914A9F01F6A609F00B2295C /* AutomationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914A9EF1F6A609F00B2295C /* AutomationSampleTests.swift */; };
+		C914A9F01F6A609F00B2295C /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914A9EF1F6A609F00B2295C /* ViewControllerTests.swift */; };
 		C914A9FB1F6A635C00B2295C /* Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914A9FA1F6A635C00B2295C /* Toggle.swift */; };
 		C914A9FD1F6A636D00B2295C /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914A9FC1F6A636D00B2295C /* BuildConfig.swift */; };
 		C914AA011F6A639900B2295C /* Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914AA001F6A639900B2295C /* Toggles.swift */; };
@@ -37,7 +37,7 @@
 		C914A9E41F6A609F00B2295C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C914A9E61F6A609F00B2295C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C914A9EB1F6A609F00B2295C /* AutomationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C914A9EF1F6A609F00B2295C /* AutomationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationSampleTests.swift; sourceTree = "<group>"; };
+		C914A9EF1F6A609F00B2295C /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		C914A9F11F6A609F00B2295C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C914A9FA1F6A635C00B2295C /* Toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toggle.swift; sourceTree = "<group>"; };
 		C914A9FC1F6A636D00B2295C /* BuildConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildConfig.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		C914A9EE1F6A609F00B2295C /* AutomationSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				C914A9EF1F6A609F00B2295C /* AutomationSampleTests.swift */,
+				C914A9EF1F6A609F00B2295C /* ViewControllerTests.swift */,
 				C914A9F11F6A609F00B2295C /* Info.plist */,
 			);
 			path = AutomationSampleTests;
@@ -238,7 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C914A9F01F6A609F00B2295C /* AutomationSampleTests.swift in Sources */,
+				C914A9F01F6A609F00B2295C /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

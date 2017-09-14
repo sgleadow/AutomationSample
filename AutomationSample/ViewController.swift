@@ -2,7 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let shouldShowTheThang = Toggles.shouldShowTheThang
+    var shouldShowTheThang = Toggles.shouldShowTheThang
     
     @IBOutlet weak var button: UIButton!
     
@@ -13,10 +13,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func doYourThang() {
-        self.show()
-    }
-    
-    func show() {
         let alert = UIAlertController(
             title: "Shhh...",
             message: "This isn't finished yet",
