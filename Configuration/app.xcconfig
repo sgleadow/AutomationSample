@@ -1,0 +1,7 @@
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
+INFOPLIST_FILE = AutomationSample/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER = com.stewgleadow.AutomationSample
+PRODUCT_NAME = $(TARGET_NAME)
+DEVELOPMENT_TEAM = 8S3QUDD6DM
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+SWIFT_VERSION = 3.0

@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+BUNDLE_LOADER = $(TEST_HOST)
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+INFOPLIST_FILE = AutomationSampleTests/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER = com.stewgleadow.AutomationSampleTests
+PRODUCT_NAME = $(TARGET_NAME)
+DEVELOPMENT_TEAM = 8S3QUDD6DM
+TEST_HOST = $(BUILT_PRODUCTS_DIR)/AutomationSample.app/AutomationSample
+SWIFT_VERSION = 3.0
