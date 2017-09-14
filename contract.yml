@@ -1,0 +1,36 @@
+swagger: '2.0'
+info:
+  title: test
+  version: v0.0.1
+host: www.mocky.io
+schemes:
+  - http
+basePath: /
+
+paths:
+
+  /:
+    get:
+      summary: Get a message
+      responses:
+        '200':
+          description: Message response object
+          schema:
+            type: object
+            required:
+              - message
+            properties:
+              message:
+                $ref: '#/definitions/message'
+
+definitions:
+  message:
+    type: object
+    required:
+      - title
+      - description
+    properties:
+      title:
+        type: string
+      description:
+        type: string

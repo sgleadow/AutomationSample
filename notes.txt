@@ -1,0 +1,14 @@
+Endpoint:
+
+http://www.mocky.io/v2/59ba34c60f00002d01622725
+
+curl http://www.mocky.io/v2/59ba34c60f00002d01622725
+http http://www.mocky.io/v2/59ba34c60f00002d01622725
+
+Int:
+
+http://www.mocky.io/v2/59ba382b0f00005b01622730
+
+Missing:
+
+http://www.mocky.io/v2/59ba38970f00002401622732

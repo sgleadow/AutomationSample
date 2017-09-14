@@ -1,0 +1,16 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "Auto demo",
+  "main": "index.js",
+  "scripts": {
+    "contract": "dredd contract.yml http://www.mocky.io/v2/59ba34c60f00002d01622725",
+    "contract_wrong_type": "dredd contract.yml http://www.mocky.io/v2/59ba382b0f00005b01622730",
+    "contract_missing_field": "dredd contract.yml http://www.mocky.io/v2/59ba38970f00002401622732"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dredd": "^4.5.0"
+  }
+}
