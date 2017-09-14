@@ -16,17 +16,72 @@ class ViewControllerTests: XCTestCase {
         vc = storyboard.instantiateInitialViewController() as! ViewController
     }
     
-    func test_whenToggledOff_shouldHideWorkInProgress() {
-        vc.shouldShowTheThang = FakeToggle(enabled: false)
-        _ = vc.view
-        
-        XCTAssertTrue(vc.button.isHidden)
-    }
     
-    func test_whenToggledOn_shouldShowWorkInProgress() {
-        vc.shouldShowTheThang = FakeToggle(enabled: true)
-        _ = vc.view
-        
-        XCTAssertFalse(vc.button.isHidden)
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+//    func test_whenToggledOff_shouldHideWorkInProgress() {
+//        vc.shouldShowTheThang = FakeToggle(enabled: false)
+//        _ = vc.view
+//        
+//        XCTAssertTrue(vc.button.isHidden)
+//    }
+//    
+//    func test_whenToggledOn_shouldShowWorkInProgress() {
+//        vc.shouldShowTheThang = FakeToggle(enabled: true)
+//        _ = vc.view
+//        
+//        XCTAssertFalse(vc.button.isHidden)
+//    }
 }

@@ -1,15 +1,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    var shouldShowTheThang = Toggles.shouldShowTheThang
     
     @IBOutlet weak var button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        button.isHidden = !shouldShowTheThang.enabled
     }
     
     @IBAction func doYourThang() {
@@ -24,3 +20,54 @@ class ViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//var shouldShowTheThang = Toggles.shouldShowTheThang
+//
+//
+//
+//button.isHidden = !shouldShowTheThang.enabled
+
