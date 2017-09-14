@@ -1,25 +1,30 @@
-//
-//  ViewController.swift
-//  AutomationSample
-//
-//  Created by Stewart Gleadow on 14/9/17.
-//  Copyright © 2017 Stewart Gleadow. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    let shouldShowTheThang = Toggles.shouldShowTheThang
+    
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        button.isHidden = !shouldShowTheThang.enabled
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func doYourThang() {
+        self.show()
     }
-
-
+    
+    func show() {
+        let alert = UIAlertController(
+            title: "Shhh...",
+            message: "This isn't finished yet",
+            preferredStyle: .alert
+        )
+        
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
 }
-

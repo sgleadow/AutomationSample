@@ -13,6 +13,9 @@
 		C914A9E21F6A609F00B2295C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C914A9E11F6A609F00B2295C /* Assets.xcassets */; };
 		C914A9E51F6A609F00B2295C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C914A9E31F6A609F00B2295C /* LaunchScreen.storyboard */; };
 		C914A9F01F6A609F00B2295C /* AutomationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914A9EF1F6A609F00B2295C /* AutomationSampleTests.swift */; };
+		C914A9FB1F6A635C00B2295C /* Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914A9FA1F6A635C00B2295C /* Toggle.swift */; };
+		C914A9FD1F6A636D00B2295C /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914A9FC1F6A636D00B2295C /* BuildConfig.swift */; };
+		C914AA011F6A639900B2295C /* Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914AA001F6A639900B2295C /* Toggles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		C914A9EB1F6A609F00B2295C /* AutomationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C914A9EF1F6A609F00B2295C /* AutomationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationSampleTests.swift; sourceTree = "<group>"; };
 		C914A9F11F6A609F00B2295C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C914A9FA1F6A635C00B2295C /* Toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toggle.swift; sourceTree = "<group>"; };
+		C914A9FC1F6A636D00B2295C /* BuildConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildConfig.swift; sourceTree = "<group>"; };
+		C914AA001F6A639900B2295C /* Toggles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toggles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +83,9 @@
 		C914A9D91F6A609F00B2295C /* AutomationSample */ = {
 			isa = PBXGroup;
 			children = (
-				C914A9DA1F6A609F00B2295C /* AppDelegate.swift */,
+				C914A9FE1F6A637B00B2295C /* Other */,
+				C914A9FF1F6A638A00B2295C /* Toggles */,
 				C914A9DC1F6A609F00B2295C /* ViewController.swift */,
-				C914A9DE1F6A609F00B2295C /* Main.storyboard */,
-				C914A9E11F6A609F00B2295C /* Assets.xcassets */,
-				C914A9E31F6A609F00B2295C /* LaunchScreen.storyboard */,
-				C914A9E61F6A609F00B2295C /* Info.plist */,
 			);
 			path = AutomationSample;
 			sourceTree = "<group>";
@@ -94,6 +97,28 @@
 				C914A9F11F6A609F00B2295C /* Info.plist */,
 			);
 			path = AutomationSampleTests;
+			sourceTree = "<group>";
+		};
+		C914A9FE1F6A637B00B2295C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C914A9DA1F6A609F00B2295C /* AppDelegate.swift */,
+				C914A9DE1F6A609F00B2295C /* Main.storyboard */,
+				C914A9E11F6A609F00B2295C /* Assets.xcassets */,
+				C914A9E31F6A609F00B2295C /* LaunchScreen.storyboard */,
+				C914A9E61F6A609F00B2295C /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		C914A9FF1F6A638A00B2295C /* Toggles */ = {
+			isa = PBXGroup;
+			children = (
+				C914A9FC1F6A636D00B2295C /* BuildConfig.swift */,
+				C914A9FA1F6A635C00B2295C /* Toggle.swift */,
+				C914AA001F6A639900B2295C /* Toggles.swift */,
+			);
+			name = Toggles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C914AA011F6A639900B2295C /* Toggles.swift in Sources */,
+				C914A9FB1F6A635C00B2295C /* Toggle.swift in Sources */,
 				C914A9DD1F6A609F00B2295C /* ViewController.swift in Sources */,
+				C914A9FD1F6A636D00B2295C /* BuildConfig.swift in Sources */,
 				C914A9DB1F6A609F00B2295C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +442,7 @@
 				C914A9F61F6A609F00B2295C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C914A9F71F6A609F00B2295C /* Build configuration list for PBXNativeTarget "AutomationSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +451,7 @@
 				C914A9F91F6A609F00B2295C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
