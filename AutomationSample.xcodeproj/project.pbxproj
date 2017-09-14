@@ -16,6 +16,9 @@
 		C914A9FB1F6A635C00B2295C /* Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914A9FA1F6A635C00B2295C /* Toggle.swift */; };
 		C914A9FD1F6A636D00B2295C /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914A9FC1F6A636D00B2295C /* BuildConfig.swift */; };
 		C914AA011F6A639900B2295C /* Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914AA001F6A639900B2295C /* Toggles.swift */; };
+		C914AA0B1F6A6BE500B2295C /* check_no_xcode_build_settings.sh in Resources */ = {isa = PBXBuildFile; fileRef = C914AA081F6A6BE500B2295C /* check_no_xcode_build_settings.sh */; };
+		C914AA0C1F6A6BE500B2295C /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = C914AA091F6A6BE500B2295C /* Gemfile */; };
+		C914AA0D1F6A6BE500B2295C /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = C914AA0A1F6A6BE500B2295C /* Rakefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		C914AA041F6A686500B2295C /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
 		C914AA051F6A686E00B2295C /* app.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = app.xcconfig; sourceTree = "<group>"; };
 		C914AA061F6A687700B2295C /* test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = test.xcconfig; sourceTree = "<group>"; };
+		C914AA081F6A6BE500B2295C /* check_no_xcode_build_settings.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = check_no_xcode_build_settings.sh; sourceTree = "<group>"; };
+		C914AA091F6A6BE500B2295C /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		C914AA0A1F6A6BE500B2295C /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		C914A9CE1F6A609F00B2295C = {
 			isa = PBXGroup;
 			children = (
+				C914AA071F6A6BD100B2295C /* Scripts */,
 				C914AA021F6A683E00B2295C /* Configuration */,
 				C914A9D91F6A609F00B2295C /* AutomationSample */,
 				C914A9EE1F6A609F00B2295C /* AutomationSampleTests */,
@@ -135,6 +142,16 @@
 				C914AA061F6A687700B2295C /* test.xcconfig */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		C914AA071F6A6BD100B2295C /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				C914AA091F6A6BE500B2295C /* Gemfile */,
+				C914AA0A1F6A6BE500B2295C /* Rakefile */,
+				C914AA081F6A6BE500B2295C /* check_no_xcode_build_settings.sh */,
+			);
+			name = Scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C914AA0B1F6A6BE500B2295C /* check_no_xcode_build_settings.sh in Resources */,
 				C914A9E51F6A609F00B2295C /* LaunchScreen.storyboard in Resources */,
+				C914AA0C1F6A6BE500B2295C /* Gemfile in Resources */,
+				C914AA0D1F6A6BE500B2295C /* Rakefile in Resources */,
 				C914A9E21F6A609F00B2295C /* Assets.xcassets in Resources */,
 				C914A9E01F6A609F00B2295C /* Main.storyboard in Resources */,
 			);
